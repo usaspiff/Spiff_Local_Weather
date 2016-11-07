@@ -1,9 +1,11 @@
 # Spiff_Local_Weather
 
-Objective: Build a CodePen.io app that display the user's local weather.
+This is my Local Weather App for the freeCodeCamp Intermediate Front End project.
 
-Users can see the weather in their current location.
-
-Users can see a different icon or background images depending on the weather.
-
-Users can push a button to toggle between Fahrenheit and Celsius.
+The page contains the following features:
+<ul>
+<li>Displays the current weather at the user's location.</li>
+<li>Clicking the temperature button switches between Fahrenheit and Celsius degrees.</li>
+<li>Clicking the wind speed button switches between mph and km/h.</li>
+<li>Background image will vary depending on the current weather conditions.</li>
+</ul>
