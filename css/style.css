@@ -1,0 +1,21 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 6px;
+  cursor: pointer;
+}
+
+.pinkish {
+  color: #C70039;
+}
