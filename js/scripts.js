@@ -3,11 +3,12 @@ $(document).ready(function() {
   // Geolocation API
   var long;
   var lat;
-  $.getJSON("http://ip-api.com/json", function(data2) {
-    lat = data2.lat;
-    long = data2.lon;
+  $.getJSON("https://ipapi.co/8.8.8.8/json/", function(data2) {
+    lat = data2.latitude;
+    long = data2.longitude;
     kelvin = data2.temp;
-    var api = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + long + "&appid=7cbb2b489db1d50a188cdce2b112d63a";
+    var api = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + long + "&appid=7cbb2b489db1d50a188cdce2b112d63a";
+    console.log(lat, long);
 
     // Weather API:
     $.getJSON(api, function(data) {
